@@ -1,173 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Basic Final Project</title>
-    <style>
-      body {
-        font-family: "cerebri sans", Arial, Helvetica, sans-serif;
-      }
-      h1 {
-        text-align: center;
-        border: 1px solid hwb(0 94% 4% / 0.8);
-        box-shadow: 5px 5px 5px hwb(0 53% 47% / 0.1);
-        font-size: 32px;
-        padding: 15px 0 15px;
-        color: #fff;
-      }
-      h2 {
-        text-align: center;
-      }
-      img {
-        max-width: 100%;
-        display: block;
-        margin: 10px 0 10px auto;
-        border-radius: 8px;
-      }
-      span {
-        font-size: 20px;
-        font-weight: bold;
 
-        color: rgb(249, 247, 247);
-      }
-      button {
-        display: block;
-        font-size: 32px;
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SheCodes Basic Final Project</title>
+  <link href="/src/styles.css" rel="stylesheet" />
+</head>
 
-        margin: 10px auto;
-        padding: 25px 30px;
-        background: rgb(23, 22, 22);
-        color: rgb(246, 239, 239);
-        border: none;
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px 2px hwb(0 49% 50% / 0.3);
-        transition: all 300ms ease-in-out;
-      }
-      button:hover {
-        cursor: pointer;
-        background: #8d70d4;
-      }
-      .container {
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 30px;
-        box-shadow: rgb(37 39 89 / 5%) 0px 8px 8px 0;
-        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+<body>
+  <div class="container">
+    <h1>Coding Workshops for Woman</h1>
 
-        color: #fff;
-        font-size: 22px;
-        line-height: 1.6;
-        opacity: 100%;
-        border-radius: 10px;
-      }
-      .site {
-        font-size: 14px;
-        color: #fff;
-      }
-      .site:hover {
-        color: #000;
-      }
-      .Me {
-        font-size: 12px;
-        opacity: 0.8;
-        color: rgb(36, 35, 35);
-      }
-      .mee {
-        color: rgb(42, 41, 41);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Coding Workshops for Woman</h1>
+    <h2>Woman in Coding</h2>
 
-      <h2>Woman in Coding</h2>
+    <hr />
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/180/original/img_4.jpg?1652435284"
+      alt="woman in coding" />
+    <hr />
+    <p>
+      These days, much of the conversation around women in coding revolves
+      around their disproportionate representation in the field.<em>
+        Many organizations and coding schools working to increase the number
+        of women working in tech.</em>
+      <br />
+      Women currently hold <strong>25%</strong> of coding jobs and earn
+      <strong>30%</strong> less money than men. 💻<span>SheCodes</span> is
+      here to help bridge the gender gap in the tech programming industry by
+      providing knowledge that is becoming necessary in today’s increasingly
+      technological job market.
+    </p>
+    <a href="https://www.shecodes.io/" target="_blank" class="site">Learn more on Website →
+    </a>
+    <br /><br />
 
-      <hr />
-      <img
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/180/original/img_4.jpg?1652435284"
-        alt="woman in coding"
-      />
-      <hr />
-      <p>
-        These days, much of the conversation around women in coding revolves
-        around their disproportionate representation in the field.<em>
-          Many organizations and coding schools working to increase the number
-          of women working in tech.</em
-        >
-        <br />
-        Women currently hold <strong>25%</strong> of coding jobs and earn
-        <strong>30%</strong> less money than men. 💻<span>SheCodes</span> is
-        here to help bridge the gender gap in the tech programming industry by
-        providing knowledge that is becoming necessary in today’s increasingly
-        technological job market.
-      </p>
-      <a href="https://www.shecodes.io/" target="_blank" class="site"
-        >Learn more on Website →
-      </a>
-      <br /><br />
+    <button>👉Apply Now</button>
 
-      <button>👉Apply Now</button>
+    <p class="Me">
+      This Page was built by
+      <a href="https://www.xing.com/profile/Mansura_Akter/cv" target="_blank" class="Mee">Mansura Akter</a>
+    </p>
+  </div>
+  <script src="/src/script.js">
+  </script>
+</body>
 
-      <p class="Me">
-        This Page was built by
-        <a
-          href="https://www.xing.com/profile/Mansura_Akter/cv"
-          target="_blank"
-          class="Mee"
-          >Mansura Akter</a
-        >
-      </p>
-    </div>
-    <script>
-      function womanCoding() {
-        let Name = prompt("What is your  Name?");
-        let Email = prompt("What is your e-mail address?");
-        let favourite = prompt("what is your favourite programming language?");
-        let age = prompt("How old are you?");
-
-        if (age <= 12) {
-          alert(
-            "Hi👋 " +
-              Name +
-              ", We'll " +
-              "be " +
-              "in " +
-              " touch " +
-              "by " +
-              "email, " +
-              "meanwhile " +
-              "have " +
-              "a " +
-              "great " +
-              "day!"
-          );
-        } else {
-          alert(
-            "Hi👋 " +
-              Name +
-              ", Welcome " +
-              "to " +
-              "SheCodes! " +
-              " We'll " +
-              "be " +
-              "in " +
-              " touch " +
-              "by " +
-              "email, " +
-              "meanwhile " +
-              "have " +
-              "a " +
-              "great " +
-              "day!"
-          );
-        }
-      }
-
-      let womanINcoding = document.querySelector("button");
-      womanINcoding.addEventListener("click", womanCoding);
-    </script>
-  </body>
 </html>
